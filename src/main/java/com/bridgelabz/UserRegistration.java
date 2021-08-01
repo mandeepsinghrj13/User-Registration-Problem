@@ -43,4 +43,13 @@ public class UserRegistration {
         String phNum = scanner.nextLine();
         System.out.println(Pattern.matches("^[0-9]{0,2}\\s{0,1}[0-9]{10}", phNum));
     }
+    /**
+     * Password contains minimum 8 characters
+     */
+    public static void passwordValidateRule1() {
+        System.out.print("Enter password : ");
+        Scanner scanner = new Scanner(System.in);
+        String password = scanner.next();
+        System.out.println(Pattern.matches("^(?=.*[a-z]).{8,}$", password));
+    }
 }
