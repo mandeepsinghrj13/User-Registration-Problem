@@ -73,4 +73,14 @@ public class UserRegistration {
         String password = scanner.next();
         System.out.println(Pattern.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,}$", password));
     }
+    /**
+     * Rule 4 Should have at least 1 Special Character  Like @#$%^&-+=
+     */
+    public static void passwordValidateRule4() {
+        System.out.println("Rule 4 Should have at least 1 Special Character ");
+        System.out.print("Enter password Rule 4  : ");
+        Scanner scanner = new Scanner(System.in);
+        String password = scanner.next();
+        System.out.println(Pattern.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%^&-+=()]).{8,}$", password));
+    }
 }

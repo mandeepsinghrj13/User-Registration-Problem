@@ -23,5 +23,6 @@ public class UserRegistrationMain {
         userRegistration.passwordValidateRule1();
         userRegistration.passwordValidateRule2();
         userRegistration.passwordValidateRule3();
+        userRegistration.passwordValidateRule4();
     }
 }
