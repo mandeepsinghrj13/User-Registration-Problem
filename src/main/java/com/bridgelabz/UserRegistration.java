@@ -63,4 +63,14 @@ public class UserRegistration {
         String password = scanner.next();
         System.out.println(Pattern.matches("^(?=.*[a-z])(?=.*[A-Z]).{8,}$", password));
     }
+    /**
+     * Rule 3 Should have at least 1 Numeric number
+     */
+    public static void passwordValidateRule3() {
+        System.out.println("Rule 3 Should have at least 1 Numeric number");
+        System.out.print("Enter password Rule 3  : ");
+        Scanner scanner = new Scanner(System.in);
+        String password = scanner.next();
+        System.out.println(Pattern.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,}$", password));
+    }
 }
