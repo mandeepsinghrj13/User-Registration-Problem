@@ -34,4 +34,13 @@ public class UserRegistration {
         String email = scanner.next();
         System.out.println(Pattern.matches("^[a-zA-Z]+([.][a-zA-Z]+)*@[a-zA-Z]+[.][a-zA-Z]{2,3}+([.][a-zA-Z]+)*$", email));
     }
+    /**
+     * Phone number starts with 2 digit country code followed by space and 10 digit number
+     */
+    public static void phoneNumberValidate() {
+        System.out.println("Enter mobile no. : ");
+        Scanner scanner = new Scanner(System.in);
+        String phNum = scanner.nextLine();
+        System.out.println(Pattern.matches("^[0-9]{0,2}\\s{0,1}[0-9]{10}", phNum));
+    }
 }
