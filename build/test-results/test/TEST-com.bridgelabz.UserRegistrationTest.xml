@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.UserRegistrationTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-08-03T12:04:30" hostname="DEEPSINGH" time="0.031">
+  <properties/>
+  <testcase name="givenValidLastName_ShouldReturn_False_Numeric_number" classname="com.bridgelabz.UserRegistrationTest" time="0.005"/>
+  <testcase name="givenValid_Password_ShouldReturn_False" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenValid_Password_ShouldReturn_True" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValidLastName_ShouldReturn_True" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValid_Email_ShouldReturn_False" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenInValidFirstName_ShouldReturn_False_Numeric_number" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenValid_Email_ShouldReturn_False_Special_Character" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenValid_Password_ShouldReturn_False_Should_8_Character" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValid_Email_ShouldReturn_True" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenValidLastName_ShouldReturn_False" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenInValidFirstName_ShouldReturn_False" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValid_Phone_Number_ShouldReturn_False" classname="com.bridgelabz.UserRegistrationTest" time="0.008"/>
+  <testcase name="givenValid_Phone_Number_ShouldReturn_False_Number_Should_10" classname="com.bridgelabz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenValid_Phone_Number_ShouldReturn_True" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenValidFirstName_ShouldReturn_True" classname="com.bridgelabz.UserRegistrationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
