@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.FirstNameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-05T12:46:14" hostname="DEEPSINGH" time="0.002">
+  <properties/>
+  <testcase name="given_FirstName_ShouldReturn_True" classname="com.bridgelabz.FirstNameTest" time="0.0"/>
+  <testcase name="given_FirstName_ShouldReturn_False_" classname="com.bridgelabz.FirstNameTest" time="0.001"/>
+  <testcase name="given_FirstName_ShouldReturn_False" classname="com.bridgelabz.FirstNameTest" time="0.001"/>
+  <system-out><![CDATA[-----Invalid First Name--------
+-----Invalid First Name--------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

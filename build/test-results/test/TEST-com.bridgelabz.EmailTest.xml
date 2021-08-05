@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.EmailTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-05T12:46:14" hostname="DEEPSINGH" time="0.012">
+  <properties/>
+  <testcase name="given_Email_ShouldReturn_False" classname="com.bridgelabz.EmailTest" time="0.009"/>
+  <testcase name="given_Email_Should_Return_False" classname="com.bridgelabz.EmailTest" time="0.001"/>
+  <testcase name="given_Email_ShouldReturn_True" classname="com.bridgelabz.EmailTest" time="0.0"/>
+  <system-out><![CDATA[-----Invalid Your Email---------
+-----Invalid Your Email---------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

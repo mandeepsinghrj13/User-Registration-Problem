@@ -13,7 +13,7 @@ public class UserRegistration {
        System.out.print("Enter first Name : ");
        Scanner scanner = new Scanner(System.in);
        String firstName = scanner.next();
-       System.out.println(Pattern.matches("[A-Z][a-z]{2,}",firstName));
+       System.out.println(Pattern.matches("^[A-Z]+[a-z]{2,}",firstName));
     }
     /**
      * Last name must start with Capital letter and has minimum 3 length
@@ -22,7 +22,7 @@ public class UserRegistration {
         System.out.print("Enter last Name : ");
         Scanner scanner = new Scanner(System.in);
         String lastName = scanner.next();
-        System.out.println(Pattern.matches("[A-Z][a-z]{2,}", lastName));
+        System.out.println(Pattern.matches("[A-Z]+[a-z]{2,}", lastName));
     }
 
     /**

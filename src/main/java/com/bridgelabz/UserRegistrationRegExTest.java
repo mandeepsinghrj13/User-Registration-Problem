@@ -15,7 +15,7 @@ public class UserRegistrationRegExTest {
     public boolean lastNameValidate(String lastName) {
         return Pattern.matches(LAST_NAME, lastName);
     }
-    public  boolean emailValidate(String email) {
+    public boolean emailValidate(String email) {
         return Pattern.matches(EMAIL, email);
     }
     public boolean phoneNumberValidate(String phoneNumber){
