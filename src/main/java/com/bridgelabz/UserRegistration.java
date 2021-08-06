@@ -24,7 +24,6 @@ public class UserRegistration {
         String lastName = scanner.next();
         System.out.println(Pattern.matches("[A-Z]+[a-z]{2,}", lastName));
     }
-
     /**
      * Email has 3 mandatory parts (abc, bl & co) and 2 optional (xyz & in) with precise @ and . positions
      * E.g. abc.xyz@bl.co.in

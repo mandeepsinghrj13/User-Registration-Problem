@@ -14,9 +14,6 @@ public class EmailSample {
             System.out.print(Pattern.matches("^[\\w+_-]+(?:\\.[\\w+_-]+)*[@][\\w]{1,}([.]{1}[a-z]{2,}){1,2}$", email) + " ");
         }
     }
-    public boolean validateEmail(String email) {
-        return Pattern.matches("^[\\w+_-]+(?:\\.[\\w+_-]+)*[@][\\w]{1,}([.]{1}[a-z]{2,}){1,2}$", email);
-    }
     /**
      * defing a main method
      * @param args
