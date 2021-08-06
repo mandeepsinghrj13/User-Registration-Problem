@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.LastNameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-05T12:46:14" hostname="DEEPSINGH" time="0.002">
+<testsuite name="com.bridgelabz.LastNameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-06T14:32:30" hostname="DEEPSINGH" time="0.002">
   <properties/>
   <testcase name="given_LastName_ShouldReturn_False" classname="com.bridgelabz.LastNameTest" time="0.0"/>
-  <testcase name="given_LastName_ShouldReturn_False_With_Spacial_Char" classname="com.bridgelabz.LastNameTest" time="0.0"/>
+  <testcase name="given_LastName_ShouldReturn_False_With_Spacial_Char" classname="com.bridgelabz.LastNameTest" time="0.001"/>
   <testcase name="given_LastName_ShouldReturn_True" classname="com.bridgelabz.LastNameTest" time="0.0"/>
   <system-out><![CDATA[-----Invalid Last Name---------
 -----Invalid Last Name---------
